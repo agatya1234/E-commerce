@@ -1,0 +1,62 @@
+.offers {
+    width: 65%;
+    height: 60vh;
+    display: flex;
+    margin: auto;
+    padding: 0px 80px;  /* Reduced padding for better spacing */
+    margin-bottom: 100px;
+    background: linear-gradient(180deg, #fde1ff 0%, #e1ffea22 60%);
+    align-items: center; /* Align content properly */
+}
+
+/* Left section */
+.offers-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offers-left h1 {
+    color: #171717;
+    font-size: 60px; /* Reduced size for better fit */
+    font-weight: 600;
+}
+
+.offers-left p {
+    color: #171717;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.offers-left button {
+    width: 250px;
+    height: 60px;
+    border-radius: 30px;
+    background: #ff4141;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+}
+
+.offers-left button:hover {
+    background: #d33b3b;
+}
+
+/* Right section */
+.offers-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centered image properly */
+    padding-top: 50px;
+}
+
+.offers-right img {
+    width: 80%; /* Scales the image proportionally */
+    max-width: 400px; /* Prevents image from getting too large */
+}

@@ -1,0 +1,89 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 50px 20px;
+    background: #f8f8f8; /* 🔹 Light background for better visibility */
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-logo p {
+    color: black;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+/* 🔹 Fixed class name from .footer-link to .footer-links */
+.footer-links {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; /* Ensures responsiveness on smaller screens */
+    list-style: none;
+    gap: 30px;
+    color: #252525;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links li {
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer-links li:hover {
+    color: #ff4141; /* 🔹 Adds hover effect */
+}
+
+.footer-social-icon {
+    display: flex;
+    gap: 15px;
+}
+
+.footer-icons-container {
+    padding: 10px;
+    background: #fbfbfb;
+    border: 1px solid #ebebee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px; /* 🔹 Uniform size for icons */
+    height: 40px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.footer-icons-container img {
+    width: 20px;
+    height: 20px;
+}
+
+.footer-icons-container:hover {
+    transform: scale(1.1); /* 🔹 Slight zoom effect on hover */
+}
+
+.footer-copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+    color: #1a1a1a;
+    font-size: 16px;
+}
+
+.footer-copyright hr {
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+    height: 3px;
+    background: #d1d1d1;
+}

@@ -1,0 +1,17 @@
+.breadcrum {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+    padding: 20px 100px;
+    background-color: #f9f9f9;
+    font-family: 'Segoe UI', sans-serif;
+    color: #555;
+    flex-wrap: wrap;
+}
+
+.breadcrum img {
+    width: 12px;
+    height: 12px;
+    margin: 0 5px;
+}
