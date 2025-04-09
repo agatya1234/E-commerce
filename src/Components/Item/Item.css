@@ -1,5 +1,7 @@
 .item{
     width:350px;
+    padding: 10px;
+  box-sizing: border-box;
 }
 .item p{
     margin:6px 0px;

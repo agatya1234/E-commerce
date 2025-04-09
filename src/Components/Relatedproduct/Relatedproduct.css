@@ -1,0 +1,51 @@
+/* Relatedproduct.css */
+
+.relatedproduct {
+    width: 100%;
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .relatedproduct h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #222;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  .relatedproduct hr {
+    height: 4px;
+    width: 100px;
+    background-color: #ff4141;
+    border: none;
+    margin: 0 auto 40px;
+    border-radius: 3px;
+  }
+  
+  .relatedproducts-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 50px;
+    justify-items: center;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .relatedproducts-item {
+      grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+      gap: 20px;
+    }
+  
+    .relatedproduct h1 {
+      font-size: 1.5rem;
+    }
+  
+    .relatedproduct hr {
+      width: 80px;
+      height: 3px;
+    }
+  }
+  
